@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,94 +9,93 @@
     <script src="js/validacion.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div id="conteiner">
         <header id="header">
             <h1>Interes Compuesto</h1>
         </header>
 
-    <article id="prin">
-        <header>
-            <h2>Calcule el interes de su auto</h2>
-        </header>
-        <section class="section">
-            <div class="in">
-                <section>
-                    <h4>Datos Iniciales:</h4>
-                    <form method="post" name="formulario" 
-                    onsubmit="return  validar(this)" action="">
-                        <div class="div1">
-                            <input type="text" name="auto" id="auto" value="" placeholder="Valor del Auto">
-                        </div>
-                        <div class="div2">
-                            <input type="text" name="cuota" id="cuota" value="" placeholder="Cuota Inicial">
-                        </div>
-                        <div class="div3">
-                            <select name="mes" id="mes" value="">
-                                <option value="value1">3</option>
-                                <option value="value2">6</option>
-                                <option value="value3">9</option>
-                                <option value="value4">12</option>
-                                <option value="value5">18</option>
-                            </select>
-                        </div>
-                        <br>
-                        <div class="cal">
-                            <input type="submit" value="Calcular" class="principal" id="add">
-                        </div>
-                        <div clas="borr">
-                            <input type="reset" name="borrar" value="Borrar Datos">
-                        </div>
-                        <br>
-                        <br>
+        <article id="prin">
+            <header>
+                <h2>Calcule el interes de su auto</h2>
+            </header>
+            <section class="section">
+                <div class="in">
+                    <section>
+                        <h4>Datos Iniciales:</h4>
+                        <form method="post" name="formulario" onclick="return  validar(this)" action=""
+                            onclick="return  calcul(this)">
+                            <div class="div1">
+                                <input type="text" name="auto" id="auto" value="" placeholder="Valor del Auto">
+                            </div>
+                            <div class="div2">
+                                <input type="text" name="cuota" id="cuota" value="" placeholder="Cuota Inicial">
+                            </div>
+                            <div class="div3">
+                                <input type="text" name="mes" id="mes" value=""
+                                    placeholder="Imgresa el periodo del interes">
+                            </div>
+                            <br>
+                            <div class="cal">
+                                <input type="button" value="Calcular" class="principal" id="add">
+                            </div>
+                            <div clas="borr">
+                                <input type="reset" name="borrar" value="Borrar Datos">
+                            </div>
+                            <br>
+                            <br>
 
-                        <div class="tabla">
-                            <table id="table">
-                                <thead align="center">
-                                    <tr>
-                                        <th>Valor del Atomóvil</th>
-                                        <th>Cuota Inicial</th>
-                                        <th>Periodo</th>
-                                        <th>Interes</th>
-                                        <td>Cuota final</td>
-                                    </tr>
-                                </thead>
-                                <tbody id="contenido" align="center">
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                                <tfoot align="center">
-                                    <tr>
-                                        <td id="val_car">0.00</td>
-                                        <td id="ct_in">0.00</td>
-                                        <td id="per">meses</td>
-                                        <td>3.94%</td>
-                                        <td id="tfinal">0.00</td>
-                                    </tr>
-                                </tfoot>
-                            </table>
-                        </div>
-                    </form>
-                </section>
-                <br>
-                <br>
-                <br>
-            </div>
-        </section>
-    </article>
-    <footer id="footer">
-        <h1>Centro de Estudios Cientificos y Tecnologicos No. 9 "Juan de dios batiz"</h1>
-        <br>
-        <ul class="icons">
-            <li>Nombre: <a href="../Mitrabajo/index.html">Ruiz Ponzio Diego</a></li>
-            <li>Boleta: 2021090214</li>
-        </ul>
-    </footer>
+                            <div class="tabla">
+                                <table id="table">
+                                    <thead align="center">
+                                        <tr>
+                                            <th>Valor del Atomóvil</th>
+                                            <th>Cuota Inicial</th>
+                                            <th>Periodo</th>
+                                            <th>Interes</th>
+                                            <td>Cuota final</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="contenido" align="center">
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot align="center">
+                                        <tr>
+                                            <td id="valcar">0.00</td>
+                                            <td id="ctin">0.00</td>
+                                            <td id="per"></td>
+                                            <td>3.94%</td>
+                                            <td id="tfinal">0.00</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </form>
+                    </section>
+                    <br>
+                    <br>
+                    <br>
+                    <p id="prueba"></p>
+                </div>
+            </section>
+        </article>
+        <footer id="footer">
+            <h1>Centro de Estudios Cientificos y Tecnologicos No. 9 "Juan de dios batiz"</h1>
+            <br>
+            <ul class="icons">
+                <li>Nombre: <a href="../Mitrabajo/index.html">Ruiz Ponzio Diego</a></li>
+                <li>Boleta: 2021090214</li>
+                <li>Grupo: 4IV7</li>
+                <li>Fecha de entrega: 03/03/2022</li>
+            </ul>
+        </footer>
     </div>
 </body>
 </html>
