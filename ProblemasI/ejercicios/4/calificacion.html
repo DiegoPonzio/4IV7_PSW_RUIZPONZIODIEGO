@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form name="formulario" method="post" action="">
+        <label>Formulario calificación final materia Algoritmos
+        </label>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td>Introduce tus tres calificaciones parciales</td>
+                <td>1°
+                    <br>
+                    <input type="text" name="cantidad1" id="cantidad1" onkeypress="return validarn(event)">
+                </td>
+                <td>2°
+                    <br>
+                    <input type="text" name="cantidad2" id="cantidad2" onkeypress="return validarn(event)">
+                </td>
+                <td>3°
+                    <br>
+                    <input type="text" name="cantidad3" id="cantidad3" onkeypress="return validarn(event)">
+                </td>
+            </tr>
+            <tr>
+                <td>Introduce la calificación del examen final: </td>
+                <td><input type="text" name="examen" id="examen" onkeypress="return validarn(event)"></td>
+            </tr>
+            <tr>
+                <td>Introduce la calificación del trabajo final: </td>
+                <td><input type="text" name="trabajo" id="trabajo" onkeypress="return validarn(event)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="calcular calificación final" name="enviar" onclick="interes()"></td>
+            </tr>
+            <tr>
+                <td>Su calificación final es: </td>
+                <td><input type="text" name="sueldoF" id="sueldoF" readonly="readonly" class="input_text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Borrar Datos" name="borrar" onclick="borrard()"></td>
+            </tr>
+        </table>
+    </form>
+    <script src="js/promedio.js"></script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer id="footer">
+        <h1>Centro de Estudios Cientificos y Tecnologicos No. 9 "Juan de dios batiz"</h1>
+        <br>
+        <ul class="icons">
+            <li>Nombre: <a href="../../../Mitrabajo/index.html">Ruiz Ponzio Diego</a></li>
+            <li><a href="../../problemario.html">Pagina Principal</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

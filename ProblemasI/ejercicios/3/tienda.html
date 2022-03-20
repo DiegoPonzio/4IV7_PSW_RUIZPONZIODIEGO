@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form name="formulario" method="post" action="">
+        <label>Formulario del descuento del 15% sobre un articulo 
+        </label>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td>Introduce el precio base del articulo</td>
+                <td><input type="text" name="cantidad" id="cantidad"  onkeypress="return validarn(event)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="calcular interes" name="enviar" onclick="interes()"></td>
+            </tr>
+            <tr>
+                <td>El descuento del 10% sobre el producto es de: </td>
+                <td><input type="text" name="sueldoI" id="sueldoI" readonly="readonly" class="input_text"></td>
+            </tr>
+            <tr>
+                <td>El precio final con el descuento es de: </td>
+                <td><input type="text" name="sueldoF" id="sueldoF" readonly="readonly" class="input_text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Borrar Datos" name="borrar" onclick="borrard()"></td>
+            </tr>
+        </table>
+    </form>
+    <script src="js/descuento.js"></script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer id="footer">
+        <h1>Centro de Estudios Cientificos y Tecnologicos No. 9 "Juan de dios batiz"</h1>
+        <br>
+        <ul class="icons">
+            <li>Nombre: <a href="../../../Mitrabajo/index.html">Ruiz Ponzio Diego</a></li>
+            <li><a href="../../problemario.html">Pagina Principal</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
