@@ -27,31 +27,31 @@ function problema2() {
         document.getElementById("p2-x1").value = document.getElementById("p2-x1").value * -1
     }
     if(document.getElementById("p2-x2").value < 0){
-        document.getElementById("p2-x2").value = document.getElementById("p2-x1").value * -1
+        document.getElementById("p2-x2").value = document.getElementById("p2-x2").value * -1
     }
     if(document.getElementById("p2-x3").value < 0){
-        document.getElementById("p2-x3").value = document.getElementById("p2-x1").value * -1
+        document.getElementById("p2-x3").value = document.getElementById("p2-x3").value * -1
     }
     if(document.getElementById("p2-x4").value < 0){
-        document.getElementById("p2-x4").value = document.getElementById("p2-x1").value * -1
+        document.getElementById("p2-x4").value = document.getElementById("p2-x4").value * -1
     }
     if(document.getElementById("p2-x5").value < 0){
-        document.getElementById("p2-x5").value = document.getElementById("p2-x1").value * -1
+        document.getElementById("p2-x5").value = document.getElementById("p2-x5").value * -1
     }
     if(document.getElementById("p2-y1").value < 0){
-        document.getElementById("p2-y1").value = document.getElementById("p2-x1").value * -1
+        document.getElementById("p2-y1").value = document.getElementById("p2-y1").value * -1
     }
     if(document.getElementById("p2-y2").value < 0){
-        document.getElementById("p2-y2").value = document.getElementById("p2-x1").value * -1
+        document.getElementById("p2-y2").value = document.getElementById("p2-y2").value * -1
     }
     if(document.getElementById("p2-y3").value < 0){
-        document.getElementById("p2-y3").value = document.getElementById("p2-x1").value * -1
+        document.getElementById("p2-y3").value = document.getElementById("p2-y3").value * -1
     }
     if(document.getElementById("p2-y4").value < 0){
-        document.getElementById("p2-y4").value = document.getElementById("p2-x1").value * -1
+        document.getElementById("p2-y4").value = document.getElementById("p2-y4").value * -1
     }
     if(document.getElementById("p2-y5").value < 0){
-        document.getElementById("p2-y5").value = document.getElementById("p2-x1").value * -1
+        document.getElementById("p2-y5").value = document.getElementById("p2-y5").value * -1
     }
     if (document.getElementById("p2-x1").value == "") {
         document.getElementById("p2-x1").value = 0;
