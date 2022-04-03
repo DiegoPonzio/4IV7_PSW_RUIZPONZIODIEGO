@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="media/style.css">
+         <script src="media/logica.js"></script>
+    </head>
+    <body>
+        <div class="modificar">
+            <form method="get" name="modificarD" action="ModificarAlumno">
+                <br>
+                <label>Ingrese la boleta del alumno que desea modificar</label>
+                <br>
+                <input type="text" name="modificar">
+                <br>
+                <label>¿Qué dato deseas modificar?</label>
+                <br>
+                <select name="dato">
+                    <option value= "nom"> Nombre </option>
+                    <option value= "appat"> Apellido paterno </option>
+                    <option value= "apmat"> Apellido materno </option>
+                    <option value= "bol"> Boleta </option>
+                    <option value= "telefono"> Telefono </option>
+                </select>
+                <br>
+                <input type="text" name="modificador" placeholder="Ingresa el nuevo dato" onkeypress="return validarn(event)">
+                <br>
+                <input type="submit" value="Modificar alumno">
+            </form>
+        </div>
+        <a href="ConsultarAlumnos">Consulta a los alumnos de batiz</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer id="footer">
+            <h1>Centro de Estudios Cientificos y Tecnologicos No. 9 "Juan de dios batiz"</h1>
+            <br>
+            <ul class="icons">
+                <li><a href="../../../../Mitrabajo/index.html">Nombre: Ruiz Ponzio Diego</a></li>
+                <li><a href="../../../../index.html">Pagina Principal</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
