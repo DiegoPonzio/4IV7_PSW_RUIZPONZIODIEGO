@@ -1,0 +1,154 @@
+.fecha{
+    text-align-last: right;
+}
+
+body{
+    align-content: center;
+    font-family: Century Gothic;
+    background: #DDDDE2;
+}
+
+.botones{
+    text-align-last: center;
+    align-self: center;
+    align-items: center;
+}
+
+#subir{
+    background: #6D1A42;
+    color: #fff;
+}
+
+#foto{
+    background: #6D1A42;
+    color: #fff;
+}
+
+.container{
+    text-align-last: center;
+}
+#turno{
+    color: #6D1A42;
+    font-size: 40px;
+}
+
+#sem{
+    color: #6D1A42;
+    font-size: 40px;
+}
+
+a{
+    color: #6D1A42;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #363554;
+}
+
+h1 img{
+    height: 109.375px;
+    width: 175px;
+}
+h1 img{
+    transform: rotate(0deg);
+}
+h1 img:hover {
+    transform: rotate(45deg);
+}
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+h1{
+    color: #6D1A42;
+}
+h1:hover {
+    color: #363554;
+}
+h3{
+    color: #6D1A42;
+}
+h3:hover {
+    color: #363554;
+}
+
+h2 a{
+    color: rgb(254, 141, 47);
+}
+h2 a:hover {
+    color: rgb(214, 30, 30);
+}    
+#footer {
+    padding: 6em 0 4em 0 ;
+    background-color: #6D1A42;
+    text-align: center;
+}
+#footer h1{
+    color: rgb(255, 255, 255);
+    font-size: 1.25em;
+}
+#footer .icons {
+    font-size: 1.25em;
+    list-style: none;
+}
+
+
+#footer .icons li{
+    color: rgba(255, 255, 255, 0.5);
+}
+#footer .icons li:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+
+    #footer .icons li{
+        border: 0;
+        display: block;
+        line-height: 1.65em;
+        margin: 0;
+        padding: 0.5em 0;
+    }
+
+}
+#footer .icons a{
+    color: rgba(255, 255, 255, 0.5);
+}
+#footer .icons a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+
+    #footer .icons a{
+        border: 0;
+        display: block;
+        line-height: 1.65em;
+        margin: 0;
+        padding: 0.5em 0;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    #footer {
+        padding: 4em 3em 2em 3em ;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #footer {
+        padding: 3em 2em 1em 2em ;
+    }
+
+}
+

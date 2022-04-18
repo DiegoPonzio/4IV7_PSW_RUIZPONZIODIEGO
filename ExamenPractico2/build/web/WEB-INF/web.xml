@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>cartaCompromiso</servlet-name>
+        <servlet-class>cartaCompromiso</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>verRegistro</servlet-name>
+        <servlet-class>verRegistro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>mostrarRegistro</servlet-name>
+        <servlet-class>mostrarRegistro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>mostrarR</servlet-name>
+        <servlet-class>mostrarR</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cartaCompromiso</servlet-name>
+        <url-pattern>/cartaCompromiso</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>verRegistro</servlet-name>
+        <url-pattern>/verRegistro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>mostrarRegistro</servlet-name>
+        <url-pattern>/mostrarRegistro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>mostrarR</servlet-name>
+        <url-pattern>/mostrarR</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
